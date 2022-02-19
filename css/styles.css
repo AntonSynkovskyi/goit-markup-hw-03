@@ -1,0 +1,233 @@
+:root {
+  --primary-font-family: 'Roboto', sans-serif;
+  --secondary-font-family: 'Raleway', sans-serif;
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
+  --background-dark-text-color: #ffffff;
+  --accent-color: #2196f3;
+  --secondary-logo-color: #000000;
+  --background-dark-color: #2f303a;
+  --background-light-color: #f5f4fa;
+}
+
+body {
+  font-family: var(--primary-font-family);
+  color: var(--primary-text-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+.reset-list {
+  list-style: none;
+}
+
+.reset-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ========= START COMPONENTS ========= */
+.accent-color {
+  color: var(--accent-color);
+}
+/* ========= END COMPONENTS ========= */
+
+/* ========= START HEADER ========= */
+.logo {
+  font-family: var(--secondary-font-family);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--secondary-logo-color);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+
+.nav-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+
+.header-contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+/* ========= END HEADER ========= */
+
+/* ========= START HERO ========= */
+.hero {
+  background-color: var(--background-dark-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--background-dark-text-color);
+}
+
+.modal-btn {
+  font-family: var(--primary-font-family);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--background-dark-text-color);
+  background-color: var(--accent-color);
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: #188ce8;
+}
+/* ========= END HERO ========= */
+
+/* ========= START BENEFITS ========= */
+.benefits-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+}
+
+.benefits-description {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+/* ========= END  BENEFITS ========= */
+
+/* ========= START WORK DIRECTIONS ========= */
+
+.work-directions-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+/* ========= END WORK DIRECTIONS ========= */
+
+/* ========= START OUR TEAM ========= */
+.our-team {
+  background-color: var(--background-light-color);
+}
+
+.our-team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+.employees-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+.employees-directions {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+/* ========= END OUR TEAM ========= */
+
+/* ========= START PORTFOLIO MAIN SECTION ========= */
+
+.btn-filters {
+  font-family: var(--primary-font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+  background-color: var(--background-light-color);
+}
+
+.btn-filters:hover,
+.btn-filters:focus {
+  color: var(--background-dark-text-color);
+  background-color: var(--accent-color);
+}
+
+.portfolio-titles {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--secondary-text-color);
+}
+.portfolio-description {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
+/* ========= END PORTFOLIO MAIN SECTION ========= */
+
+/* ========= START FOOTER ========= */
+.footer {
+  background-color: var(--background-dark-color);
+}
+
+.footer-logo {
+  font-family: var(--secondary-font-family);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--background-dark-text-color);
+}
+
+.address-link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: var(--accent-color);
+}
+
+.addres-secondary-color {
+  color: var(--background-dark-text-color);
+}
+/* ========= END FOOTER ========= */
