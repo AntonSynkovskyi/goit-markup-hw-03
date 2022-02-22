@@ -37,6 +37,13 @@ img {
   display: block;
 }
 
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .reset-list {
   list-style: none;
 }
@@ -53,7 +60,23 @@ img {
 /* ========= END COMPONENTS ========= */
 
 /* ========= START HEADER ========= */
+.header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
+  margin-right: 93px;
   font-family: var(--secondary-font-family);
   font-weight: 700;
   font-size: 26px;
@@ -67,7 +90,13 @@ img {
   color: var(--accent-color);
 }
 
+.nav-list-item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .nav-list {
+  display: flex;
+  align-items: center;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -82,14 +111,29 @@ img {
   letter-spacing: 0.02em;
 }
 
+.header-contacts:not(:last-child) {
+  margin-right: 50px;
+  margin-left: auto;
+}
+
 /* ========= END HEADER ========= */
 
 /* ========= START HERO ========= */
 .hero {
   background-color: var(--background-dark-color);
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .hero-title {
+  width: 696px;
+  margin-bottom: 30px;
+  text-align: center;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -99,6 +143,10 @@ img {
 }
 
 .modal-btn {
+  min-width: 200px;
+  padding: 10px 32px;
+  border: none;
+  border-radius: 4px;
   font-family: var(--primary-font-family);
   font-weight: 700;
   font-size: 16px;
@@ -115,7 +163,21 @@ img {
 /* ========= END HERO ========= */
 
 /* ========= START BENEFITS ========= */
+.benefits {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.benefits-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: -20px;
+  margin-left: -30px;
+}
+
 .benefits-title {
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -128,6 +190,11 @@ img {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+.benefits-items {
+  width: 270px;
+  margin-left: 30px;
+  margin-top: 20px;
 }
 /* ========= END  BENEFITS ========= */
 

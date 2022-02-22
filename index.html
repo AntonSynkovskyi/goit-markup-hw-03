@@ -21,54 +21,66 @@
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <nav class="nav">
-        <a class="reset-link logo" href="./index.html"
-          ><span class="accent-color">Web</span>Studio</a
+    <header class="header">
+      <div class="container header-container">
+        <nav class="nav navigation">
+          <a class="reset-link logo" href="./index.html"
+            ><span class="accent-color">Web</span>Studio</a
+          >
+          <ul class="reset-list nav-list">
+            <li class="nav-list-item">
+              <a class="reset-link accent-color nav-link" href="./index.html">Студия</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="reset-link nav-link" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="nav-list-item"><a class="reset-link nav-link" href="">Контакты</a></li>
+          </ul>
+        </nav>
+        <a class="reset-link nav-link header-contacts" href="mailto:info@devstudio.com"
+          >info@devstudio.com</a
         >
-        <ul class="reset-list nav-list">
-          <li><a class="reset-link accent-color nav-link" href="./index.html">Студия</a></li>
-          <li><a class="reset-link nav-link" href="./portfolio.html">Портфолио</a></li>
-          <li><a class="reset-link nav-link" href="">Контакты</a></li>
-        </ul>
-      </nav>
-      <a class="reset-link nav-link header-contacts" href="mailto:info@devstudio.com"
-        >info@devstudio.com</a
-      >
-      <a class="reset-link nav-link header-contacts" href="tel:+380961111111">+38 096 111 11 11</a>
+        <a class="reset-link nav-link header-contacts" href="tel:+380961111111"
+          >+38 096 111 11 11</a
+        >
+      </div>
     </header>
     <main>
       <section class="hero">
-        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <button class="modal-btn" type="button">Заказать услугу</button>
+        <div class="container hero-container">
+          <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+          <button class="modal-btn" type="button">Заказать услугу</button>
+        </div>
       </section>
       <section class="benefits">
-        <ul class="reset-list">
-          <li>
-            <h3 class="benefits-title">Внимание к деталям</h3>
-            <p class="benefits-description">
-              Идейные соображения, а также начало повседневной работы по формированию позиции.
-            </p>
-          </li>
-          <li>
-            <h3 class="benefits-title">Пунктуальность</h3>
-            <p class="benefits-description">
-              Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
-            </p>
-          </li>
-          <li>
-            <h3 class="benefits-title">Планирование</h3>
-            <p class="benefits-description">
-              Равным образом консультация с широким активом в значительной степени обуславливает.
-            </p>
-          </li>
-          <li>
-            <h3 class="benefits-title">Современные технологии</h3>
-            <p class="benefits-description">
-              Значимость этих проблем настолько очевидна, что реализация плановых заданий.
-            </p>
-          </li>
-        </ul>
+        <div class="container">
+          <ul class="reset-list benefits-list">
+            <li class="benefits-items">
+              <h3 class="benefits-title">Внимание к деталям</h3>
+              <p class="benefits-description">
+                Идейные соображения, а также начало повседневной работы по формированию позиции.
+              </p>
+            </li>
+            <li class="benefits-items">
+              <h3 class="benefits-title">Пунктуальность</h3>
+              <p class="benefits-description">
+                Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
+              </p>
+            </li>
+            <li class="benefits-items">
+              <h3 class="benefits-title">Планирование</h3>
+              <p class="benefits-description">
+                Равным образом консультация с широким активом в значительной степени обуславливает.
+              </p>
+            </li>
+            <li class="benefits-items">
+              <h3 class="benefits-title">Современные технологии</h3>
+              <p class="benefits-description">
+                Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
       <section class="work-directions">
         <h2 class="work-directions-title">Чем мы занимаемся</h2>
